@@ -1,0 +1,13 @@
+
+
+#Jone.Chen add for finger sunwavecorp
+    chmod 0666 /dev/sunwave_fp
+    chown root root /dev/sunwave_fp
+#Jone.Chen add for finger sunwavecorp
+
+# cdfinger
+    chmod 0666 /dev/fpsdev0
+# cdfinger
+#cs fingerprint
+    chmod 666 /dev/cs_spi
+#cs fingerprint
