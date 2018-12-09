@@ -6,8 +6,8 @@
 # Type Declaration
 # ==============================================
 
-type orientationd_exec , exec_type, file_type;
-type orientationd ,domain;
+type orientationd_exec, exec_type, file_type;
+type orientationd, domain;
 
 # ==============================================
 # MTK Policy Rule
