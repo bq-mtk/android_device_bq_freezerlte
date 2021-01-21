@@ -80,16 +80,16 @@ Only the three quirks included above are recognized at this point:
     <Encoders>
         <!-- MTK codec -->
         <MediaCodec name="OMX.MTK.VIDEO.ENCODER.MPEG4" type="video/mp4v-es" update="true">
-            <Limit name="measured-frame-rate-176x144" range="800-1200" />
+            <Limit name="measured-frame-rate-176x144" range="500-900" />
         </MediaCodec>
         <MediaCodec name="OMX.MTK.VIDEO.ENCODER.H263" type="video/3gpp" update="true">
             <Limit name="measured-frame-rate-176x144" range="500-1200" />
         </MediaCodec>
         <MediaCodec name="OMX.MTK.VIDEO.ENCODER.AVC" type="video/avc" update="true">
-            <Limit name="measured-frame-rate-320x240" range="300-500" />
-            <Limit name="measured-frame-rate-720x480" range="100-200" />
-            <Limit name="measured-frame-rate-1280x720" range="50-100" />
-            <Limit name="measured-frame-rate-1920x1080" range="30-60" />
+            <Limit name="measured-frame-rate-320x240" range="300-700" />
+            <Limit name="measured-frame-rate-720x480" range="50-200" />
+            <Limit name="measured-frame-rate-1280x720" range="30-200" />
+            <Limit name="measured-frame-rate-1920x1080" range="50-100" />
         </MediaCodec>
         <!-- Google codec -->
         <MediaCodec name="OMX.google.mpeg4.encoder" type="video/mp4v-es" update="true">
@@ -102,12 +102,12 @@ Only the three quirks included above are recognized at this point:
         </MediaCodec>
         <MediaCodec name="OMX.google.h264.encoder" type="video/avc" update="true">
             <Limit name="measured-frame-rate-320x240" range="200-300" />
-            <Limit name="measured-frame-rate-720x480" range="100-200" />
+            <Limit name="measured-frame-rate-720x480" range="200-300" />
             <Limit name="measured-frame-rate-1280x720" range="50-100" />
             <Limit name="measured-frame-rate-1920x1080" range="50-100" />
         </MediaCodec>
         <MediaCodec name="OMX.google.vp8.encoder" type="video/x-vnd.on2.vp8" update="true">
-            <Limit name="measured-frame-rate-320x240" range="400-800" />
+            <Limit name="measured-frame-rate-320x180" range="100-500" />
             <Limit name="measured-frame-rate-640x360" range="200-300" />
             <Limit name="measured-frame-rate-1280x720" range="30-60" />
             <Limit name="measured-frame-rate-1920x1080" range="30-60" />

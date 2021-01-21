@@ -1,18 +1,24 @@
-# UleFone Power - LineageOS 14.1 / Resurrrection Remix 5.8.x
+Android Device Tree For BQ Aquaris M10 4G (freezerlte)
+=================================================
 
-# О девайсе
-![UleFone Power](https://superg.ru/wp-content/uploads/2016/01/Ulefone-Power-%D1%81-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%BC-%D0%BF%D0%BE%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%D0%BC.jpg "UleFone Power")
-
-### Технические характеристики
-
-Компоненты | Детали
+About Device:
+=====================================
+Basic   | Spec Sheet
 -------:|:-------------------------
-Процессор     | 1.3GHz Octa-Core MT6753 (6735)
-Видеоускоритель     | Mali-T720
-Оперативная память, (GB) | 3 GB 
-Операционная система | Android 6.0 Marshmallow
-Встроенная память, (GB) | 16 GB
-Емкость аккумулятора, (mAh) | 6050 mAh
-Дисплей | 5.5" 1080 x 1920 px
-Основная камера, (MP) | 13 МР
-Фронтальная камера, (MP) | 5 МР
+CPU     | 1,3 GHz Quad-Core 
+CHIPSET | Mediatek MT8783 1,3 GHz
+GPU     | MediaTek Mali-T720 MP3 450 MHz 
+Kernel  | 3.18.22+
+Memory  | 2 GB
+Shipped Android Version | Android 5.1 upgradable to 6.0.1
+Storage | 32GB
+MicroSD | 256 GB
+Battery | LiPo 7280 mAh (non-removable)
+Dimensions | 171mm / 246mm / 8,2mm
+Display | 1200 x 1920 pixels, 10" FHD
+Rear Camera  | 8.0 MP
+Front Camera | 5.0 MP
+
+This branch it's ONLY for building LineageOS 14.1.
+
+![alt text](https://cdncpu.tiendacpu.com/134-large_default/bq-aquaris-m10-4g-101-4g-32gb-full-hd-negro.jpg)

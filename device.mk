@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/ulefone/power
+LOCAL_PATH := device/bq/freezerlte
 
-DEVICE_PACKAGE_OVERLAYS += device/ulefone/power/overlay
+DEVICE_PACKAGE_OVERLAYS += device/bq/freezerlte/overlay
 
 # AAPT configs
 PRODUCT_AAPT_CONFIG := normal
@@ -24,7 +24,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Bootanimation
 TARGET_BOOTANIMATION_HALF_RES := true
-TARGET_SCREEN_HEIGHT := 1080
+TARGET_SCREEN_HEIGHT := 1200
 TARGET_SCREEN_WIDTH := 1920
 
 # default.prop
@@ -131,7 +131,6 @@ PRODUCT_COPY_FILES += \
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/keylayout/mtk-tpd.kl:system/usr/keylayout/mtk-tpd.kl \
     $(LOCAL_PATH)/configs/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
     $(LOCAL_PATH)/configs/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
     $(LOCAL_PATH)/configs/AVRCP.kl:system/usr/keylayout/AVRCP.kl
@@ -246,10 +245,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     memtrack.mt6735
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    fingerprintd
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.mt6735 \
@@ -257,10 +252,8 @@ PRODUCT_PACKAGES += \
 
 # FM Radio
 PRODUCT_PACKAGES += \
-    radio.fm.mt6735 \
     FMRadio \
-    libfmjni \
-    libfmcust
+    libfmjni
 
 # ION
 PRODUCT_PACKAGES += \

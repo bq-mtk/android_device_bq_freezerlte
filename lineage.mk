@@ -21,15 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/ulefone/power/device.mk)
-$(call inherit-product-if-exists, vendor/ulefone/power/power-vendor.mk)
+$(call inherit-product, device/bq/freezerlte/device.mk)
+$(call inherit-product-if-exists, vendor/bq/freezerlte/freezerlte-vendor.mk)
 
 # Device branding
-PRODUCT_DEVICE := power
-PRODUCT_NAME := lineage_power
-PRODUCT_BRAND := UleFone
-PRODUCT_MANUFACTURER := UleFone
-PRODUCT_MODEL := Power
+PRODUCT_DEVICE := freezerlte
+PRODUCT_NAME := lineage_freezerlte
+PRODUCT_BRAND := bq
+PRODUCT_MANUFACTURER := bq
+PRODUCT_MODEL := Aquaris M10 4G
 
 PRODUCT_GMS_CLIENTID_BASE := android-google
 

@@ -94,19 +94,3 @@ key 163   MEDIA_NEXT
 key 165   MEDIA_PREVIOUS
 key 168   MEDIA_REWIND
 key 159   MEDIA_FAST_FORWARD
-key 67    F9
-key 68    F10
-
-key 142   SLEEP
-key 143   WAKEUP
-#add by liuqiong@wind-mobi.com 2016-01-19 begin
-key 183    F13
-key 184    F14
-key 185    F15
-key 186    F16
-key 187    F17
-key 188    F18
-key 189    F19
-key 190    F20
-key 191    F21
-#add by liuqiong@wind-mobi.com 2016-01-19 end
