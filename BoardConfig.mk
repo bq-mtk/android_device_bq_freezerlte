@@ -93,6 +93,7 @@ TARGET_USES_64_BIT_BINDER := true
 
 # OTA
 BLOCK_BASED_OTA := true
+TARGET_OTA_ASSERT_DEVICE := freezerlte,Aquaris_M10_4G
 
 # Partitions
 BOARD_HAS_LARGE_FILESYSTEM := true
