@@ -163,6 +163,12 @@ PRODUCT_PACKAGES += \
     init.recovery.mt6735.rc \
     ueventd.mt6735.rc
 
+# Telephony
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/telephony/apns-conf.xml:system/etc/apns-conf.xml \
+    $(DEVICE_PATH)/telephony/ecc_list.xml:system/etc/ecc_list.xml \
+    $(DEVICE_PATH)/telephony/spn-conf.xml:system/etc/spn-conf.xml
+
 # WiFi
 PRODUCT_PACKAGES += \
     lib_driver_cmd_mt66xx \
