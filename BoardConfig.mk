@@ -98,6 +98,9 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset 
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 TARGET_USES_64_BIT_BINDER := true
 
+# Legacy blobs
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
+
 # OTA
 BLOCK_BASED_OTA := true
 TARGET_OTA_ASSERT_DEVICE := freezerlte,Aquaris_M10_4G
