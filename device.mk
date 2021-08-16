@@ -50,6 +50,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    FMRadio
+
 # GPS
 PRODUCT_PACKAGES += \
     gps.mt6753 \
