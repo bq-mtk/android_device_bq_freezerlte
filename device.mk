@@ -157,6 +157,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     power.mt6753
 
+# Property Overrides
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.allow.mock.location=1
+
 # Rootdir
 PRODUCT_PACKAGES += \
     enableswap.sh \
