@@ -86,6 +86,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lights.mt6753
 
+# MRDump
+PRODUCT_PACKAGES += \
+    libmrdump \
+    mrdump_tool
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/permissions/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
