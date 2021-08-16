@@ -91,6 +91,10 @@ PRODUCT_PACKAGES += \
     libmrdump \
     mrdump_tool
 
+# Misc
+PRODUCT_PACKAGES += \
+    librs_jni
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/permissions/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
