@@ -82,19 +82,20 @@ index 345d442c0..f93d0c5ba 100644
  extern int have_console;
  extern std::string console_name;
 diff --git a/init/service.cpp b/init/service.cpp
-index 8127e708d..a09fd8f71 100644
+index a5334f4..560c122 100644
 --- a/init/service.cpp
 +++ b/init/service.cpp
-@@ -371,12 +371,14 @@ bool Service::Start() {
+@@ -371,6 +371,7 @@ bool Service::Start() {
              scon = ret_scon;
              free(ret_scon);
          }
 +#if 0
          if (rc == 0 && scon == mycon) {
              ERROR("Service %s does not have a SELinux domain defined.\n", name_.c_str());
-             free(mycon);
-             free(fcon);
-             return false;
+             if (selinux_status_getenforce() > 0) {
+@@ -379,6 +380,7 @@ bool Service::Start() {
+                 return false;
+             }
          }
 +#endif
          free(mycon);
