@@ -68,6 +68,9 @@ USE_MINIKIN := true
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
+# GPS
+BOARD_GPS_LIBRARIES := true
+
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/bq/mt6753
