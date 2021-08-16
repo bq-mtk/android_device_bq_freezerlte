@@ -58,6 +58,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     gps.mt6753 \
     libcurl
+    agps_profiles_conf2.xml \
+    slp_conf
 
 # Graphics
 PRODUCT_PACKAGES += \
