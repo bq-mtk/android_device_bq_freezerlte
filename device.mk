@@ -163,7 +163,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.service.acm.enable=0 \
     ro.mount.fs=EXT4 \
     camera.disable_zsl_mode=1 \
-    persist.sys.display.clearMotion=0
+    persist.sys.display.clearMotion=0 \
+    media.stagefright.legacyencoder=true \
+    media.stagefright.less-secure=true
 
 # Rootdir
 PRODUCT_PACKAGES += \
