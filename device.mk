@@ -65,6 +65,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/media/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
     $(DEVICE_PATH)/media/media_codecs_performance.xml:system/etc/media_codecs_performance.xml
 
+# Lights
+PRODUCT_PACKAGES += \
+    lights.mt6753
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/permissions/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
