@@ -120,6 +120,9 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6735
 
+# RIL
+BOARD_RIL_CLASS := ../../../device/bq/freezerlte/ril
+
 # Seccomp filters
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
