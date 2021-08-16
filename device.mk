@@ -71,7 +71,7 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     gps.mt6753 \
-    libcurl
+    libcurl \
     agps_profiles_conf2.xml \
     slp_conf
 
