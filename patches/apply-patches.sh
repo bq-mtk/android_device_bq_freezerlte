@@ -15,9 +15,6 @@ cd ../..
 cd frameworks/opt/telephony
 git apply -v ../../../device/bq/freezerlte/patches/frameworks_opt_telephony.patch
 cd ../../..
-cd packages/apps/Settings
-git apply -v ../../../device/bq/freezerlte/patches/settings.patch
-cd ../../..
 cd packages/apps/Snap
 git apply -v ../../../device/bq/freezerlte/patches/snap.patch
 cd ../../..
