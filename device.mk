@@ -160,7 +160,8 @@ PRODUCT_PACKAGES += \
 # Property Overrides
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.allow.mock.location=1 \
-    persist.service.acm.enable=0
+    persist.service.acm.enable=0 \
+    ro.mount.fs=EXT4
 
 # Rootdir
 PRODUCT_PACKAGES += \
