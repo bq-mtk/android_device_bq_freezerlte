@@ -83,7 +83,7 @@ PRODUCT_PACKAGES += \
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
-    $(DEVICE_PATH)/keylayout/mtk-tpd.idc:system/usr/idc/mtk-tpd.kl
+    $(DEVICE_PATH)/keylayout/mtk-tpd.kl:system/usr/idc/mtk-tpd.kl
 
 # Keyhandler
 PRODUCT_PACKAGES += \
