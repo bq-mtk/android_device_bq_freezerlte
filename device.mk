@@ -74,6 +74,20 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
     $(DEVICE_PATH)/keylayout/mtk-tpd.idc:system/usr/idc/mtk-tpd.kl
 
+# Keyhandler
+PRODUCT_PACKAGES += \
+    com.cyanogenmod.keyhandler
+
+PRODUCT_SYSTEM_SERVER_JARS += \
+    com.cyanogenmod.keyhandler
+
+# Never dexopt the keyhandler
+$(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.mt6753
+
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/media/media_codecs.xml:system/etc/media_codecs.xml \
@@ -86,10 +100,6 @@ PRODUCT_COPY_FILES += \
 # Memtrack
 PRODUCT_PACKAGES += \
     memtrack.mt6753
-
-# Lights
-PRODUCT_PACKAGES += \
-    lights.mt6753
 
 # MRDump
 PRODUCT_PACKAGES += \
