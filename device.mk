@@ -163,6 +163,11 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
     $(DEVICE_PATH)/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+    $(DEVICE_PATH)/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
+    $(DEVICE_PATH)/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny
+
 # Dalvik Tweak
 PRODUCT_TAGS += dalvik.gc.type-precise
 
