@@ -27,8 +27,7 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay
 
 # Screen Density
 PRODUCT_AAPT_CONFIG := normal
