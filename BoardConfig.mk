@@ -52,6 +52,9 @@ BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/BOOT/BOOT/boot/boot_mode
 WITH_DEXPREOPT_BOOT_IMG_ONLY := true
 DONT_DEXPREOPT_PREBUILTS := true
 
+# Display
+USE_OPENGL_RENDERER := true
+
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/bq/mt6753
