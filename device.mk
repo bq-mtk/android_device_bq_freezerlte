@@ -48,7 +48,8 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    gps.mt6753
+    gps.mt6753 \
+    libcurl
 
 # Graphics
 PRODUCT_PACKAGES += \
