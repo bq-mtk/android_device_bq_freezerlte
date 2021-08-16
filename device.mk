@@ -47,7 +47,8 @@ PRODUCT_PACKAGES += \
     libaudiopolicymanagerdefault \
     libaudio-resampler \
     libaudiosetting \
-    libtinyalsa
+    libtinyalsa \
+    libtinycompress
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_effects.conf:system/etc/audio_effects.conf \
