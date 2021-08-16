@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
     $(DEVICE_PATH)/audio/vendor_audio_effects.conf:system/vendor/etc/audio_effects.conf
 
+# GPS
+PRODUCT_PACKAGES += \
+    gps.mt6753
+
 # Graphics
 PRODUCT_PACKAGES += \
     libGLES_android \
