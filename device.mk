@@ -70,6 +70,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/media/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
     $(DEVICE_PATH)/media/media_codecs_performance.xml:system/etc/media_codecs_performance.xml
 
+# Memtrack
+PRODUCT_PACKAGES += \
+    memtrack.mt6753
+
 # Lights
 PRODUCT_PACKAGES += \
     lights.mt6753
