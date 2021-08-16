@@ -161,7 +161,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.allow.mock.location=1 \
     persist.service.acm.enable=0 \
-    ro.mount.fs=EXT4
+    ro.mount.fs=EXT4 \
+    camera.disable_zsl_mode=1
 
 # Rootdir
 PRODUCT_PACKAGES += \
