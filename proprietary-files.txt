@@ -142,6 +142,7 @@ lib/libion_mtk.so
 lib/libpq_cust.so
 lib/libpq_prot.so
 lib/libpqservice.so
+lib/libRSDriver_mtk.so
 lib/libui_ext.so
 lib64/hw/gralloc.mt6753.so
 lib64/hw/hwcomposer.mt6753.so
@@ -158,6 +159,7 @@ lib64/libion_mtk.so
 lib64/libpq_cust.so
 lib64/libpq_prot.so
 lib64/libpqservice.so
+lib64/libRSDriver_mtk.so
 lib64/libui_ext.so
 
 # DRM
