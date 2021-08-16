@@ -95,7 +95,8 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/media/media_codecs_google_video_le.xml:system/etc/media_codecs_google_video_le.xml \
     $(DEVICE_PATH)/media/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
     $(DEVICE_PATH)/media/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
-    $(DEVICE_PATH)/media/media_codecs_performance.xml:system/etc/media_codecs_performance.xml
+    $(DEVICE_PATH)/media/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
+    $(DEVICE_PATH)/configs/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 
 # Memtrack
 PRODUCT_PACKAGES += \
