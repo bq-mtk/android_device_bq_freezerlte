@@ -45,7 +45,8 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     audio_policy.stub \
     libaudiopolicymanagerdefault \
-    libaudio-resampler
+    libaudio-resampler \
+    libaudiosetting
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_effects.conf:system/etc/audio_effects.conf \
